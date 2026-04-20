@@ -851,6 +851,19 @@ a {
   gap: 0.5rem;
 }
 
+.field-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.35rem;
+}
+
+.field-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
 input,
 textarea {
   width: 100%;
