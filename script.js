@@ -94,3 +94,18 @@ if (backBtn) {
         window.location.href = "index.html";
     });
 }
+
+
+// mobile menu
+
+const openMenu = document.getElementById("open");
+const closeMenu = document.getElementById("close");
+const mobMenu = document.querySelector(".mob-menu");
+
+openMenu.addEventListener("click", function () {
+    mobMenu.classList.add("open");
+});
+
+closeMenu.addEventListener("click", function () {
+    mobMenu.classList.remove("open");
+}); 
