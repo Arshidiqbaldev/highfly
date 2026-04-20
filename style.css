@@ -714,6 +714,8 @@ a {
   color: var(--primary-color);
   line-height: 0;
   transition: var(--transition);
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .accordion-content-parent {
