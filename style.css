@@ -964,6 +964,7 @@ textarea:focus {
 
 .footer-text{
   font-size: 0.875rem;
+  text-align: center;
   color: var(--grey);
 }
 
