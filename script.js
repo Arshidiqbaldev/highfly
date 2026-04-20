@@ -13,7 +13,9 @@ const observer = new IntersectionObserver(function (entries) {
 
 const airplane = document.querySelector(".airplane");
 
-observer.observe(airplane);
+if (airplane) {
+    observer.observe(airplane);
+}
 
 
 
@@ -82,6 +84,13 @@ accordionItems.forEach(item => {
 
 const backBtn = document.querySelector(".back-btn");
 
-backBtn.addEventListener("click", function () {
-    window.history.back();
-});
+if (backBtn) {
+    backBtn.addEventListener("click", function () {
+        if (window.history.length > 1) {
+            window.history.back();
+            return;
+        }
+
+        window.location.href = "index.html";
+    });
+}
