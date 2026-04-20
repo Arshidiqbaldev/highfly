@@ -46,6 +46,7 @@ const observer3 = new IntersectionObserver(function (entries3) {
     entries3.forEach(function (entry3) {
         if (entry3.isIntersecting) {
             entry3.target.classList.add("fade-service");
+
         }
 
     });
@@ -76,7 +77,7 @@ accordionItems.forEach(item => {
     });
 
 
-}); 
+});
 
 
 

@@ -872,7 +872,7 @@ textarea {
   border: var(--border);
   font-size: 0.875rem;
   transition: var(--transition);
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 textarea {
